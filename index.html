@@ -1,58 +1,73 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amolitho Baldé - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Amolitho</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <h1>Amolitho Baldé</h1>
-        <p>Étudiant en cybersécurité | Passionné de réseaux & hacking éthique</p>
-    </header>
+  <header>
+    <div class="container">
+      <!-- METS TA PHOTO ICI -->
+      <img src="chemin/vers/ta_photo.jpg" alt="Photo de profil" class="profile-pic" />
 
-    <section id="about">
-        <h2>À propos de moi</h2>
-        <p>Je suis un passionné de cybersécurité en formation, avec une solide base en réseaux, Linux, et Python. Je construis mes compétences à travers des projets concrets, des CTF, et des certifications pratiques comme TryHackMe.</p>
-    </section>
+      <h1>Ton Nom</h1>
+      <p>Étudiant en cybersécurité passionné par le pentesting, l’analyse réseau, et la détection d’intrusion.</p>
+      <!-- METS TON OBJECTIF (stage, alternance, freelance...) -->
+    </div>
+  </header>
 
-    <section id="skills">
-        <h2>Compétences</h2>
-        <ul>
-            <li>Python, Bash, HTML/CSS</li>
-            <li>Linux, Windows Server</li>
-            <li>Wireshark, Scapy, Metasploit, Nmap</li>
-            <li>MySQL, VirtualBox, VMware</li>
-        </ul>
-    </section>
+  <section id="competences">
+    <h2>Compétences</h2>
+    <ul>
+      <!-- METS TES LANGAGES ET OUTILS ICI -->
+      <li>Python, Bash, Java</li>
+      <li>Scapy, Wireshark, Metasploit, Nmap</li>
+      <li>Kali Linux, Burp Suite, MySQL</li>
+    </ul>
+  </section>
 
-    <section id="projects">
-        <h2>Projets</h2>
-        <ul>
-            <li><strong>Analyseur HTTP avec Scapy</strong> – Capture et tri des paquets HTTP pour détecter des URL suspectes [<a href="#">Voir le projet</a>]</li>
-            <li><strong>Script de scan réseau Python</strong> – Scanner d'IP et ports ouverts avec logs [<a href="#">Voir sur GitHub</a>]</li>
-            <li><strong>CTF Résolus</strong> – Résolutions de challenges TryHackMe et HackTheBox [<a href="#">Voir mes writeups</a>]</li>
-        </ul>
-    </section>
+  <section id="projets">
+    <h2>Projets</h2>
 
-    <section id="certifications">
-        <h2>Certifications & Formations</h2>
-        <ul>
-            <li>TryHackMe - PreSecurity, Network Fundamentals</li>
-            <li>OpenClassrooms - Introduction à la cybersécurité</li>
-        </ul>
-    </section>
+    <!-- RÉPÈTE CE BLOC POUR CHAQUE PROJET -->
+    <div class="projet">
+      <h3>Titre du projet</h3>
+      <p>Description courte du projet</p>
+      <p><strong>Ce que tu as appris :</strong> Explique ici</p>
+      <a href="https://github.com/tonrepo">Lien vers GitHub</a>
+    </div>
+  </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email : <a href="mailto:amolitho@example.com">amolitho@example.com</a></p>
-        <p>LinkedIn : <a href="https://www.linkedin.com/in/ton-lien">linkedin.com/in/ton-lien</a></p>
-        <p>GitHub : <a href="https://github.com/ton-github">github.com/ton-github</a></p>
-    </section>
+  <section id="certifications">
+    <h2>Certifications & Formations</h2>
+    <ul>
+      <!-- METS TES CERTIFS ICI -->
+      <li>TryHackMe – Badge X</li>
+      <li>Hack The Box – Niveau Y</li>
+      <li>OpenClassrooms – Formation Z</li>
+    </ul>
+  </section>
 
-    <footer>
-        <p>&copy; 2025 Amolitho Baldé. Tous droits réservés.</p>
-    </footer>
+  <section id="cv">
+    <h2>CV</h2>
+    <!-- METS LE LIEN VERS TON CV PDF -->
+    <a href="chemin/vers/ton_cv.pdf" target="_blank">Télécharger mon CV</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <ul>
+      <!-- METS TES INFOS ICI -->
+      <li>Email : ton.email@pro.com</li>
+      <li>GitHub : <a href="https://github.com/tonpseudo">github.com/tonpseudo</a></li>
+      <li>LinkedIn : <a href="https://linkedin.com/in/tonprofil">linkedin.com/in/tonprofil</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Ton Nom. Tous droits réservés.</p>
+  </footer>
 </body>
 </html>
